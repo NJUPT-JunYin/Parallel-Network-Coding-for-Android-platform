@@ -1,0 +1,2 @@
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cxx\Debug\h1f1z5nr\obj\x86\libnative-lib.so

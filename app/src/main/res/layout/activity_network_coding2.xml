@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="NetworkCoding2Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="405dp"
+        android:layout_height="744dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_gfm2"
+                android:layout_width="140dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="Order of Finite Field(2^m)" />
+
+
+            <TextView
+                android:id="@+id/tv_gfm3"
+                android:layout_width="140dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2^" />
+
+            <EditText
+                android:id="@+id/et_gfm2"
+                android:layout_width="68dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="8"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_initgf2"
+                android:layout_width="143dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:rotationX="2"
+                android:text="Initialize Finite Field"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_block2"
+                android:layout_width="140dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="Size of Data to Be Tested(B)：" />
+
+            <EditText
+                android:id="@+id/et_blocksize2"
+                android:layout_width="97dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="100"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_generatefile2"
+                android:layout_width="143dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="18dp"
+                android:text="Generate Data"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_file4"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="Size of Each Coded Block(B)：" />
+
+            <EditText
+                android:id="@+id/et_filesize2"
+                android:layout_width="99dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="60000"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_openfile2"
+                android:layout_width="143dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="18dp"
+
+                android:text="Open"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_file5"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="The Number of Parallel Decoding Threads" />
+
+            <EditText
+                android:id="@+id/et_filesize5"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="2"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_networkcoding2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Coding" />
+
+            <Button
+                android:id="@+id/btn_decoding2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Decoding" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_result2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_result4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_result3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

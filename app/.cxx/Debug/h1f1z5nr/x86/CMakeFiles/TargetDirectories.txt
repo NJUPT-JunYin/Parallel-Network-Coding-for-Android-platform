@@ -1,0 +1,3 @@
+D:/TestNC/TestNC/app/.cxx/Debug/h1f1z5nr/x86/CMakeFiles/native-lib.dir
+D:/TestNC/TestNC/app/.cxx/Debug/h1f1z5nr/x86/CMakeFiles/edit_cache.dir
+D:/TestNC/TestNC/app/.cxx/Debug/h1f1z5nr/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+D:/TestNC/TestNC/app/.cxx/Debug/h1f1z5nr/armeabi-v7a/CMakeFiles/native-lib.dir
+D:/TestNC/TestNC/app/.cxx/Debug/h1f1z5nr/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/TestNC/TestNC/app/.cxx/Debug/h1f1z5nr/armeabi-v7a/CMakeFiles/rebuild_cache.dir
